@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Progress Bar</title>
     <script src="https://kit.fontawesome.com/d5a58a8dfa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <div class="container">
-    <h1>Hello World!</h1>
+        <!-- <img src="./images/spirit-bear-wild-04.webp" alt="Bear Shaking Head"/>
+        <img src="./images/simon-berger-aZjw7xI3QAA-unsplash.jpg" alt="View Of Forest"/>
+        <img src="./images/olivier-guillard-U7gYTkyiqD0-unsplash.jpg" alt="Pelicans Grouped Together"/>
+        <img src="./images/hans-jurgen-mager-AZ31hv9kdzE-unsplash.jpg" alt="Bear Praying Hands"/>
+        <img src="./images/georgi-kalaydzhiev-i5w0Yz3s3JQ-unsplash.jpg" alt="Lama"/> -->
+        <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle ">2</div>
+        <div class="circle ">3</div>
+        <div class="circle ">4</div>
+        <div class="circle ">5</div>
+        </div>
+        <div class="btns">
+    <button class="btn" id="prev" disabled>Prev</button>
+    <button class="btn" id="next">Next</button>
+    </div>
     </div>
 </body>
 <script src="script.js"></script>

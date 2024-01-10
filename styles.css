@@ -1,10 +1,13 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+/* *{
     padding: 0;
     margin:0;
     box-sizing: border-box;
-}
+} */
 
 body{
+  font-family: "Inter", "Helvetica Neue", sans-serif;
   display:flex;
     flex-direction: column;
     align-items: center;
@@ -14,5 +17,34 @@ body{
 }
 
 .container{
-  
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.progress-container{
+  display:flex;
+  justify-content:space-between;
+  max-width: 100%;
+  width: 300px;
+  position: relative;
+}
+
+.progress{
+  background-color: black;
+  position: absolute;
+  top:40%;
+  left:0;
+  height:5px;
+  width: 50%;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.btns{
+  display:flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
 }
